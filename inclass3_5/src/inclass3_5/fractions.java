@@ -34,6 +34,7 @@ public class fractions {
 		}
 	}
 
+	
 }
 /* analysis from worksheet:
  * the problem was turning an improper fraction into a proper one
