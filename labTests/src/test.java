@@ -180,7 +180,7 @@ public class test {
 			if(zodiac == "Taurus"){
 				System.out.println(zodiac + ", be careful in your future endeavors.");
 			}
-			if(zodiac == "Gemini"){
+			if(zodiac.equals("Gemini")){
 				System.out.println(zodiac + ", you're going to meet someone special soon.");
 			}
 			if(zodiac == "Cancer"){
