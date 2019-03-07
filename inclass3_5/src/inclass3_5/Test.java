@@ -4,14 +4,10 @@ import java.util.*;
 
 public class Test{
   public static void main(String[] args){
-    Scanner scan = new Scanner(System.in);
-
-    int a = 5;
-    double b = 10;
-    if(a > b);
-    {
-      System.out.println(a + " is greater than " + b);
-    }
+	  int numEvens = 0;
+	  for(int i = 50; i < 251; ){
+	        numEvens++;
+	  }   
   } // End main
 } // End class
 
