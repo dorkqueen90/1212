@@ -8,7 +8,7 @@ public class javalab2 {
 	public static void main(String[] args) {
 		String s1 = "";
 		String finalStr = "";
-		boolean flagFalse = false;
+		
 		Scanner input = new Scanner(System.in);
 		//loop where user enters string until they exit
 		
