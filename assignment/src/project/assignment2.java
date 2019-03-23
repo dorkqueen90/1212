@@ -144,7 +144,7 @@ public class assignment2 {
 			word2 = "";
 			if(wordInString < s1.length() && wordInString >= 0) {
 				//display new sentence
-				System.out.println(s1.replaceFirst(word, word2));
+				System.out.println(s1.replaceAll(word, word2));
 			}
 			else //word not found option
 				System.out.println("Your word is not found in the sentence.");
