@@ -21,6 +21,8 @@ public class polygon {
 		double polygon = 0;
 		polygon = area(sides, side);
 		System.out.println("The area of the polygon is: " + polygon);
+		// close scanner
+		input.close();
 	}
 
 	public static double area(int a, double b) {

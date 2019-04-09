@@ -32,12 +32,15 @@ public class assignment3 {
 		for (int i = 0; i < 500; i++) {
 			// display menu
 			System.out.println("1. Linear Search\n2. Binary Search\n3. Bubble Sort\n4. Selection Sort\n5. Quit");
-			int choice = input.nextInt(); // validate
+			System.out.println("Enter a number between 1-5");
+			int choice = input.nextInt();
 			if (choice == 5) {
 				break;
 			}
 			switch (choice) {
 			case 1: // linear search
+				// display table
+				display(bookID, bookTitle, bookPrice);
 				// ask user for book ID
 				// ask user for num of books they wish to purchase
 				// make sure it's available
@@ -91,9 +94,16 @@ public class assignment3 {
 		return null;
 	}
 
-	public static String[] display(int[] bookID, double[] bookPrice, int[] quantityAvailable) {
+	public static void display(int[] ID, String[] title, double[] price) {
 		// display information in tabular form
-		return null;
+		for (int i = 0; i < ID.length; i++) {
+			if (title.length > 35 && title.length < 55)
+				System.out.println(ID[i] + "\t" + title[i] + "\t" + price[i]);
+			else if (title.length > 25 && title.length < 35)
+				System.out.println(ID[i] + "\t" + title[i] + "\t\t" + price[i]);
+			else if (title.length < 20)
+				System.out.println(ID[i] + "\t" + title[i] + "\t\t\t" + price[i]);
+		}
 	}
 
 }
