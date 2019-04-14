@@ -5,16 +5,19 @@ import java.util.Scanner;
  * @author Amber Sibel
  * @version 4/2/19
  * This program should display a menu of options for the user, repeating until they choose to quit.
+ * Menu options include linear search, binary search, bubble sort, and selection sort.
  * Steps include:
  * Showing menu of options
  * Get choice from user
- * Display the library info to user
+ * Display the library info to user (in order from lowest to highest quantity)
  * Ask user for book ID and num of books they wish to purchase
  * Update quantity of books
- * Display info that was requested by user
+ * Display info that was requested by user (ID, title, quantity, and total price)
  * Use either linear or binary search for book (users choice)
  * Generate 10 rand nums between 1-500 and store in array
  * Sort numbers based on user choice (bubble or selection)
+ * Display unsorted and sorted array.
+ * Add elapsed time to each method and display at the end.
  */
 public class assignment3 {
 
