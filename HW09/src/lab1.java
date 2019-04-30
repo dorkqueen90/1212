@@ -69,7 +69,7 @@ public class lab1 {
                         //get player2 index
                         player2 = (int) (Math.random() * 51);
                         //display winner
-                        winner = determineWinner(sdeck, player1, player2);
+                         winner = determineWinner(sdeck, player1, player2);
                         if (winner == 1) {
                             System.out.println("Computer 1 had a higher card: " + sdeck[player1]);
                             counter1++;
